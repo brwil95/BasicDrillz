@@ -120,7 +120,7 @@ public class TestStringUtilities {
     public void getTheMiddleCharOfZipcoder(){
         // : Given
         String input = "Zipcoder";
-        Character expected = 'c';
+        Character expected = 'o';
 
         // : When
         Character actual = StringUtilities.getMiddleCharacter(input);
